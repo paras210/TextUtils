@@ -52,6 +52,7 @@ function App() {
             <Route exact path="/" element={<TextForm heading="Type the text to analyze" modeColor={mode} alertFun={showAlert} />}/>
           </Routes>
         </div>
+        
       </Router>
     </>
   );
